@@ -1,1 +1,3 @@
 # projetoDevOpsaws
+*teste
+** teste

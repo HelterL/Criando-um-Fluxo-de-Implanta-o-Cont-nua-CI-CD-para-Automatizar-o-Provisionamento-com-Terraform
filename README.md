@@ -9,5 +9,6 @@ O intuito desse projeto é a criação de pipeline de infra as code utilizando s
 
 ## Primeiro a criação de um usuário do IAM para acessar o codecommit
 No console da AWS pesquise por **IAM** > no menu lateral a esquerda selecione **usuários**
-Adicione um nome ao usuário > em **Opções de permissões** clique em **anexar políticas diretamente**
+Adicione um nome ao usuário > em **Opções de permissões** clique em **anexar políticas diretamente** 
+Adicione a seguinte política **AWSCodeCommitPowerUser** 
 ![image](https://github.com/HelterL/projetoDevOpsaws/assets/39557564/96860b86-d03e-4bb8-b1a0-5308d280a696)

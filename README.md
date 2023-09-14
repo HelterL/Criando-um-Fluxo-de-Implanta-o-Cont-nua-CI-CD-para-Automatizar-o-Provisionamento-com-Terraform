@@ -4,6 +4,7 @@ O intuito desse projeto é a criação de pipeline de infra as code utilizando s
 * Conta na AWS
 * Usuário no IAM
 * Credenciais github
+* Bucket S3
 * Docker
 * Terraform 
 

@@ -8,4 +8,4 @@ O intuito desse projeto é a criação de pipeline de infra as code utilizando s
 * Terraform 
 
 # Primeiro a criação de um usuário do IAM para acessar o codecommit
-No console da AWS pesquise por ## IAM > no menu lateral a esquerda selecione ## usuários
+No console da AWS pesquise por ** IAM > no menu lateral a esquerda selecione ** usuários

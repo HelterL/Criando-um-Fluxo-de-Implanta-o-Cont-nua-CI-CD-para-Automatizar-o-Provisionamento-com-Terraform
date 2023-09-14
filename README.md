@@ -1,3 +1,4 @@
 # projetoDevOpsaws
 
-##teste
+## requisitos preliminares 
+** reste 

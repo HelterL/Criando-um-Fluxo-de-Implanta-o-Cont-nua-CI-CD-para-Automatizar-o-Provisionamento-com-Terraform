@@ -38,5 +38,5 @@ Para salvar as credenciais para futuros commits utilizamos o seguinte comando.
 git config credential.helper store
 git push https://git-codecommit.us-east-1.amazonaws.com/v1/repos/projetoDevOps-demo
 ```
-Após esse comando novamente será pedido nossas credenciais, porém, agora elas vão ficar salvas e não precisaremos configura novamente sempre que precisamos "conversar" com o repositório
+Após esse comando novamente será pedido nossas credenciais, porém, agora elas vão ficar salvas e não precisaremos configurar novamente sempre que precisamos "conversar" com o repositório
 

@@ -32,6 +32,7 @@ Em uma pasta de sua preferência faça o clone do repositório para sua máquina
 git clone https://git-codecommit.us-east-1.amazonaws.com/v1/repos/projetoDevOps-demo minhapastademo
 ```
 Após esse comando a AWS irá pedir as credencias de acesso ao repositório, nesse momento precisamos das credenciais de acesso ao codecommit através do git
+
 Para salvar as credenciais para futuros commits utilizamos o seguinte comando.
 ```bash
 git config credential.helper store

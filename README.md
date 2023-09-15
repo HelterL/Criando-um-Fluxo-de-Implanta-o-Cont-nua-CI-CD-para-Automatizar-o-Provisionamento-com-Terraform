@@ -72,7 +72,7 @@ Faça a criação de uma Bucket S3, no nosso caso pode deixar todas as configura
 Crie o arquivo **main.tf** ele será nosso arquivo principal do Terraform, pois nele iremos especificar onde iremos armazenar nosso arquivo **tfstate**
 Que no nosso caso será utilizado um repositório remoto o **S3**
 
-```json
+```python
 provider "aws" {
   region = "us-east-1"
   version = "~>5.0"

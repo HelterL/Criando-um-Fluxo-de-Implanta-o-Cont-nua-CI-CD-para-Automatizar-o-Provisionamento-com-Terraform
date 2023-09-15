@@ -3,6 +3,7 @@ O intuito desse projeto é a criação de pipeline de infra as code utilizando s
 ## Requisitos preliminares
 * Conta na AWS
 * Usuário no IAM
+* Credenciais IAM
 * Credenciais github
 * Bucket S3
 * Docker
@@ -11,9 +12,10 @@ O intuito desse projeto é a criação de pipeline de infra as code utilizando s
 ## Primeiro a criação de um usuário do IAM para acessar o codecommit
 No console da AWS pesquise por **IAM** > no menu lateral a esquerda selecione **usuários**
 Adicione um nome ao usuário > em **Opções de permissões** clique em **anexar políticas diretamente** 
-Adicione a seguinte política **AWSCodeCommitPowerUser** 
-![image](https://github.com/HelterL/projetoDevOpsaws/assets/39557564/96860b86-d03e-4bb8-b1a0-5308d280a696)
+Adicione as seguintes políticas **AWSCodeCommitPowerUser** e **AmazonS3FullAccess**
+![image](https://github.com/HelterL/projetoDevOpsaws/assets/39557564/e6e41d17-f57c-4138-a6e6-01a22ae977a3)
+
+
 
 Após a criação do usuário, clique no nome dele e vá em **credenciais de segurança** > e gere as credenciais e faça o download do arquivo **.csv**
-![image](https://github.com/HelterL/projetoDevOpsaws/assets/39557564/e85fdd50-5ce6-491b-9990-d718dd7a611d)
 

@@ -72,7 +72,7 @@ Faça a criação de uma Bucket S3, no nosso caso pode deixar todas as configura
 Crie o arquivo **main.tf** ele será nosso arquivo principal do Terraform, pois nele iremos especificar onde iremos armazenar nosso arquivo **tfstate**
 Que no nosso caso será utilizado um repositório remoto o **S3**
 
-```python
+```bash
 provider "aws" {
   region = "us-east-1"
   version = "~>5.0"
@@ -80,10 +80,13 @@ provider "aws" {
 
 terraform {
   backend "s3" {
+    # Altere para o nome do seu bucket criado anteriormente
     bucket = "projetodevopstf"
+    # Dê um nome de sua preferência ao arquivo, contanto que tenha .tfstate no final
     key = "projetodevops.tfstate"
     region = "us-east-1"
     encrypt = true
   }
 }
 ```
+**encrypt** **true** como o nome já diz, é para criptografar nosso arquivo tfstate no S3 com chaves gerenciadas pelo **S3**

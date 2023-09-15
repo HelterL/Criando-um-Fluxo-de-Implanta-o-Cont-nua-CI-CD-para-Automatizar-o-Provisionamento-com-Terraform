@@ -29,6 +29,7 @@ Após a criação do repositório selecione ele e clique em clonar URL do tipo *
 
 Em uma pasta de sua preferência faça o clone do repositório para sua máquina
 ```bash
-git clone https://git-codecommit.us-east-1.amazonaws.com/v1/repos/projetoDevOps
+git clone https://git-codecommit.us-east-1.amazonaws.com/v1/repos/projetoDevOps-demo minhapastademo
 ```
+Após esse comando a AWS irá pedir as credencias de acesso ao repositório, nesse momento precisamos das credenciais de acesso ao codecommit através do git
 

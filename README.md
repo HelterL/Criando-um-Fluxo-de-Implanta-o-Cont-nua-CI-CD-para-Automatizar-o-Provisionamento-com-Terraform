@@ -16,7 +16,7 @@ Adicione as seguintes políticas **AWSCodeCommitPowerUser** e **AmazonS3FullAcce
 ![image](https://github.com/HelterL/projetoDevOpsaws/assets/39557564/e6e41d17-f57c-4138-a6e6-01a22ae977a3)
 
 Após a criação do usuário, clique no nome dele e vá em **credenciais de segurança** > e gere as credenciais e faça o download do arquivo **.csv**
-Lembre-se: temos duas credencias uma para acessar serviços da AWS e outra para acessar o codecommit através do git
+Lembre-se: temos duas credenciais uma para acessar serviços da AWS e outra para acessar o codecommit através do git
 ![image](https://github.com/HelterL/projetoDevOpsaws/assets/39557564/ccd26396-7faf-4ffe-84bd-7e3b6b1bc66f)
 ![image](https://github.com/HelterL/projetoDevOpsaws/assets/39557564/8e7c6c5b-a493-4cd7-a79d-fef5b7f52c39)
 

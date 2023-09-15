@@ -25,5 +25,5 @@ No console de AWS pesquise por **CodeCommit** > clique em criar repositório
 ![image](https://github.com/HelterL/projetoDevOpsaws/assets/39557564/dd8efb24-d2aa-4cdc-999b-3c488452f129)
 
 Após a criação do repositório selecione ele e clique em clonar URL do tipo **HTTPS**
-![Uploading image.png…]()
+![image](https://github.com/HelterL/projetoDevOpsaws/assets/39557564/45e57bf2-4b35-43f8-bcbd-e65aeab2a517)
 

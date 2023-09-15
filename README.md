@@ -89,6 +89,35 @@ terraform {
   }
 }
 ```
+
+Faça a criação de outro arquivo com o nome **ec2.tf** ele será no arquivo de exemplo de criação de recurso com Terraform
+```bash
+data "aws_ami" "ubuntu" {
+  most_recent = true
+
+  filter {
+    name   = "name"
+    values = ["ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-*"]
+  }
+
+  filter {
+    name   = "virtualization-type"
+    values = ["hvm"]
+  }
+
+  owners = ["099720109477"] # Canonical
+}
+
+resource "aws_instance" "web" {
+  ami           = data.aws_ami.ubuntu.id
+  instance_type = "t3.micro"
+
+  tags = {
+    Name = "HelloWorld"
+  }
+}
+```
+
 **encrypt** **true** como o nome já diz, é para criptografar nosso arquivo tfstate no S3 com chaves gerenciadas pelo **S3**
 
 Detalhe: A região do provider e do terraform não são a mesma coisa! A região do provider se destina em qual região será criado nossos recursos ou seja pode ser outro de sua preferência
@@ -111,3 +140,4 @@ Verificação da versão do docker
 docker --version
 ```
 
+## 

@@ -23,4 +23,7 @@ Lembre-se: temos duas credenciais uma para acessar serviços da AWS e outra para
 ## Criação do repositório no codecommit
 No console de AWS pesquise por **CodeCommit** > clique em criar repositório
 ![image](https://github.com/HelterL/projetoDevOpsaws/assets/39557564/dd8efb24-d2aa-4cdc-999b-3c488452f129)
-Após
+
+Após a criação do repositório selecione ele e clique em clonar URL do tipo **HTTPS**
+![Uploading image.png…]()
+

@@ -20,4 +20,7 @@ Lembre-se: temos duas credenciais uma para acessar serviços da AWS e outra para
 ![image](https://github.com/HelterL/projetoDevOpsaws/assets/39557564/ccd26396-7faf-4ffe-84bd-7e3b6b1bc66f)
 ![image](https://github.com/HelterL/projetoDevOpsaws/assets/39557564/8e7c6c5b-a493-4cd7-a79d-fef5b7f52c39)
 
-
+## Criação do repositório no codecommit
+No console de AWS pesquise por **CodeCommit** > clique em criar repositório
+![image](https://github.com/HelterL/projetoDevOpsaws/assets/39557564/dd8efb24-d2aa-4cdc-999b-3c488452f129)
+Após

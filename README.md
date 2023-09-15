@@ -39,6 +39,7 @@ git config credential.helper store
 git push https://git-codecommit.us-east-1.amazonaws.com/v1/repos/projetoDevOps-demo
 ```
 Após esse comando novamente será pedido nossas credenciais, porém, agora elas vão ficar salvas e não precisaremos configurar novamente sempre que precisamos "conversar" com o repositório
+
 Em uma IDE de sua preferência vamos testar a conexão com o repositório, crie um arquivo com o nome laion.txt
 ```bash
 laion.txt
@@ -46,3 +47,17 @@ laion.txt
 El o laion não tem jeito
 ```
 
+Execute **git** add para preparar a alteração no repositório compartilhado:
+```bash
+git add laion.txt
+```
+
+Execute **git commit** para confirmar a alteração no repositório compartilhado:
+```bash
+git commit -m "commit laion"
+```
+
+Execute **git push** para enviar sua confirmação inicial por meio do nome remoto padrão que o Git usa para seu CodeCommit repositório (origin), da branch padrão em seu repositório local (main):
+```bash
+git push -u origin main
+```

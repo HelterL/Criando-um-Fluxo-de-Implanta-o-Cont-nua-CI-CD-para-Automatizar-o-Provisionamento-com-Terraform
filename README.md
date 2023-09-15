@@ -140,4 +140,11 @@ Verificação da versão do docker
 docker --version
 ```
 
-## 
+## Criando recurso com Terraform
+
+Iremos utilizar uma imagem docker com terraform que é fornecida pela própria hashicorp
+
+```bash
+docker run -it -v $PWD:/app -w /app --entrypoint "" hashicorp/terraform:light sh
+```
+O comando irá rodar um docker no modo interativo e irá utilizar nossa pasta atual como workdir com o nome /app utilizando uma imagem light do terraform

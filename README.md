@@ -148,3 +148,34 @@ Iremos utilizar uma imagem docker com terraform que é fornecida pela própria h
 docker run -it -v $PWD:/app -w /app --entrypoint "" hashicorp/terraform:light sh
 ```
 O comando irá rodar um docker no modo interativo e irá utilizar nossa pasta atual como workdir com o nome /app utilizando uma imagem light do terraform
+
+Para fazer a criação de recursos na AWS se faz necessário a configuração de credenciais, para isso vamos utilizar variáveis de ambiente
+Agora precisamos das chaves do IAM para acessar o S3
+
+```bash
+export AWS_ACCESS_KEY_ID="suaaccesskey"
+```
+
+```bash
+export AWS_SECRET_ACCESS_KEY="suasecretkey"
+```
+
+Comando **terraform init** para inicializar o ambiente com o provider utilizado.
+```bash
+terraform init
+```
+
+Comando **terraform plan** para mostra o plano de execução do terraform e verificar se tem alguma incongruência no código.
+
+```bash
+terraform plan -out plano
+```
+Comando **terraform apply** para criar e alterar as Instâncias/Objetos no Provider de acordo com o seu terraform
+
+```bash
+terraform apply plano
+```
+
+
+
+

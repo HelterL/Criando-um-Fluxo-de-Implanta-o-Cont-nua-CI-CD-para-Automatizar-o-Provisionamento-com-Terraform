@@ -93,3 +93,21 @@ terraform {
 
 Detalhe: A região do provider e do terraform não são a mesma coisa! A região do provider se destina em qual região será criado nossos recursos ou seja pode ser outro de sua preferência
 por exemplo us-east-2, us-west-1... já o que se encontra no backend do terraform é somente onde fica a região do nosso bucket S3
+
+## Instalação do Docker
+
+Atualização de pacotes do sistema
+```bash
+sudo apt update
+```
+Instalação do pacote docker
+```bash
+sudo apt install docker*
+```
+
+Verificação da versão do docker
+
+```bash
+docker --version
+```
+

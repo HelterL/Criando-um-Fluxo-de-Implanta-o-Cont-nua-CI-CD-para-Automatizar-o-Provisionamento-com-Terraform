@@ -39,4 +39,10 @@ git config credential.helper store
 git push https://git-codecommit.us-east-1.amazonaws.com/v1/repos/projetoDevOps-demo
 ```
 Após esse comando novamente será pedido nossas credenciais, porém, agora elas vão ficar salvas e não precisaremos configurar novamente sempre que precisamos "conversar" com o repositório
+Em uma IDE de sua preferência vamos testar a conexão com o repositório, crie um arquivo com o nome laion.txt
+```bash
+laion.txt
+------------
+El o laion não tem jeito
+```
 

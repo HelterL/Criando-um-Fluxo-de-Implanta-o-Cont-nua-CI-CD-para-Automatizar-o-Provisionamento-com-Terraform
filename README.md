@@ -91,5 +91,5 @@ terraform {
 ```
 **encrypt** **true** como o nome já diz, é para criptografar nosso arquivo tfstate no S3 com chaves gerenciadas pelo **S3**
 
-Detalhe: A região do provider e do terraform não são a mesma coisa! A região do provider se destina em qual região será criada nossos recursos ou seja pode ser outro de sua preferência
-por exemplo us-east-2, us-west-1... já o que se encontra no backend é somente onde fica a região do nosso bucket S3
+Detalhe: A região do provider e do terraform não são a mesma coisa! A região do provider se destina em qual região será criado nossos recursos ou seja pode ser outro de sua preferência
+por exemplo us-east-2, us-west-1... já o que se encontra no backend do terraform é somente onde fica a região do nosso bucket S3

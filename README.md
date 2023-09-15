@@ -63,3 +63,27 @@ git push -u origin main
 ```
 
 Para verificar se tudo ocorreu como o esperado, vá no seu repositório do CodeCommit e verifique se na opção **código** está armazenado o arquivo criado anteriormente
+
+## Criação do Bucket S3
+Faça a criação de uma Bucket S3, no nosso caso pode deixar todas as configurações padrões
+
+## Criação do ambiente Terraform
+
+Crie o arquivo **main.tf** ele será nosso arquivo principal do Terraform, pois nele iremos especificar onde iremos armazenar nosso arquivo **tfstate**
+Que no nosso caso será utilizado um repositório remoto o **S3**
+
+```Json
+provider "aws" {
+  region = "us-east-1"
+  version = "~>5.0"
+}
+
+terraform {
+  backend "s3" {
+    bucket = "projetodevopstf"
+    key = "projetodevops.tfstate"
+    region = "us-east-1"
+    encrypt = true
+  }
+}
+```

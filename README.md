@@ -47,7 +47,7 @@ laion.txt
 El o laion não tem jeito
 ```
 
-Execute **git** add para preparar a alteração no repositório compartilhado:
+Execute **git add** para preparar a alteração no repositório compartilhado:
 ```bash
 git add laion.txt
 ```

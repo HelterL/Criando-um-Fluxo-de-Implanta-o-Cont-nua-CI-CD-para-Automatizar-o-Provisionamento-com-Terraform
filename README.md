@@ -11,7 +11,7 @@ O intuito desse projeto é a criação de uma pipeline de infraestrutura como c�
 
 Abaixo temos a arquitetura com os serviços utilizados:
 
-![BPMN 2 0](https://github.com/HelterL/projetoDevOpsaws/assets/39557564/1c42f4fa-c2ba-4720-bdca-cd52169a9339)
+![BPMN 2 0](https://github.com/HelterL/projetoDevOpsaws/assets/39557564/7fbfd52b-da35-46ca-9302-6e3653c0efde)
 
 ## Primeiro a criação de um usuário do IAM para acessar o CodeCommit
 No console da AWS pesquise por **IAM** > no menu lateral a esquerda selecione **usuários**

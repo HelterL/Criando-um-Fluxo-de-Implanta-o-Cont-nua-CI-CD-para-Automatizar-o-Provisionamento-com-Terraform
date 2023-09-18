@@ -212,6 +212,7 @@ Posso colocar que a aprovação seja feita por outra conta AWS? pode sim! basta 
 
 ![image](https://github.com/HelterL/projetoDevOpsaws/assets/39557564/01a32cb9-f615-47b0-917a-6d63e861fb95)
 
+Após a criação da assinatura o SNS irá enviar um email de autorização de inscrição no tópico, aceite essa autorização
 ## Criação da pipeline no CodePipeline
 
 No console da AWS pesquise por Codepipeline ou se já estiver na página do CodeBuild basta ir em CodePipeline
@@ -228,6 +229,14 @@ Na etapa de compilação adicione os nossos dados referente ao nosso projeto no 
 
 Ignore a etapa de implantação e crie o pipeline
 
+## Criação do disparo SNS para aprovação do commit
+
+Clique no pipeline criado e vá em editar e adicione uma nova etapa embaixo do nosso **source**
+
+![image](https://github.com/HelterL/projetoDevOpsaws/assets/39557564/b3b4a70e-decd-49a2-943d-f853b3b73b7e)
+
+Vá em **Adicionar grupo de ações**, dê um nome para a ação e em provedor de ação selecione **Aprovação Manual** e selecione nosso tópico criado
+![image](https://github.com/HelterL/projetoDevOpsaws/assets/39557564/0095d716-a78f-4e2a-897f-13a58e2793a4)
 
 
 

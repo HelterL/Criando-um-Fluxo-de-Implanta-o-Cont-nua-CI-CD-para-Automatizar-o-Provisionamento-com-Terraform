@@ -236,6 +236,8 @@ Clique no pipeline criado e vá em editar e adicione uma nova etapa embaixo do n
 ![image](https://github.com/HelterL/projetoDevOpsaws/assets/39557564/b3b4a70e-decd-49a2-943d-f853b3b73b7e)
 
 Vá em **Adicionar grupo de ações**, dê um nome para a ação e em provedor de ação selecione **Aprovação Manual** e selecione nosso tópico criado
+Após a criação dessa etapa clique em salvar, para salvar nossas alterações
+
 ![image](https://github.com/HelterL/projetoDevOpsaws/assets/39557564/0095d716-a78f-4e2a-897f-13a58e2793a4)
 
 Agora no seu terminal ou na IDE de preferência, faça a alteração e o commit de algum arquivo, a pipeline irá ser executada sempre após o comando:
@@ -243,6 +245,19 @@ Agora no seu terminal ou na IDE de preferência, faça a alteração e o commit 
 ```bash
 git push -u origin main
 ```
+Nossa pipeline ficará assim
+![image](https://github.com/HelterL/projetoDevOpsaws/assets/39557564/585175fb-63b7-4a0f-acfe-163ab2f11680)
+
+Pedido de aprovação para iniciar o CodeBuild
+![image](https://github.com/HelterL/projetoDevOpsaws/assets/39557564/8c0b9eaf-596a-4792-b924-5114fcf68e92)
+
+Ao final de tudo, para excluir todos os recursos criados execute o seguinte comando e digite **yes** para remoção:
+
+```bash
+terraform destroy
+```
+
+
 
 
 

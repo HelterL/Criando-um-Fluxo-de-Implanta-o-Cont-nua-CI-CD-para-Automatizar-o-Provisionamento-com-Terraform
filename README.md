@@ -196,12 +196,9 @@ Adicione as seguintes variáveis de ambiente **AWS_ACCESS_KEY_ID** e **AWS_SECRE
 
 ![image](https://github.com/HelterL/projetoDevOpsaws/assets/39557564/58a896b6-2df1-4d58-a74f-be0d47a0e535)
 
+Em Buildspec adicione o nome do arquivo buildspec.yml que é o nome de arquivo padrão que o CodeBuild procura para compilar o ambiente
 
-
-
-
-
-
+![image](https://github.com/HelterL/projetoDevOpsaws/assets/39557564/4bb6a42c-0457-4bbb-98c9-f5609c0cca4d)
 
 
 

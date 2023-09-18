@@ -200,9 +200,7 @@ Em Buildspec adicione o nome do arquivo buildspec.yml que é o nome de arquivo p
 
 ![image](https://github.com/HelterL/projetoDevOpsaws/assets/39557564/4bb6a42c-0457-4bbb-98c9-f5609c0cca4d)
 
-
-
-
+Por fim, pode manter o restante das configurações padrão e criar o projeto
 
 
 

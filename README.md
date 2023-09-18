@@ -212,8 +212,21 @@ Posso colocar que a aprovação seja feita por outra conta AWS? pode sim! basta 
 
 ![image](https://github.com/HelterL/projetoDevOpsaws/assets/39557564/01a32cb9-f615-47b0-917a-6d63e861fb95)
 
+## Criação da pipeline no CodePipeline
 
+No console da AWS pesquise por Codepipeline ou se já estiver na página do CodeBuild basta ir em CodePipeline
 
+Dê um nome para sua Pipeline e crie uma nova função
+![image](https://github.com/HelterL/projetoDevOpsaws/assets/39557564/5e78b1b3-ebd6-42f2-a8fb-29722eb5c3a7)
+
+Na etapa de origem adicione os nossos dados referente ao nosso repositório no CodeCommit
+
+![image](https://github.com/HelterL/projetoDevOpsaws/assets/39557564/32cc5de4-1b48-4d8b-bd35-7cc4b4efac17)
+
+Na etapa de compilação adicione os nossos dados referente ao nosso projeto no CodeBuild
+![image](https://github.com/HelterL/projetoDevOpsaws/assets/39557564/e97b1a8e-152f-4ced-971c-b6720b14e12e)
+
+Ignore a etapa de implantação e crie o pipeline
 
 
 

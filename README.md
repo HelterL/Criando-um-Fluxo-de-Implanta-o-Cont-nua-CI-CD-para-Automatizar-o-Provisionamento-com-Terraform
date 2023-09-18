@@ -207,8 +207,8 @@ No console da AWS pesquise por SNS e crie um tópico, as configurações restant
 
 ![image](https://github.com/HelterL/projetoDevOpsaws/assets/39557564/afd603fc-c474-4b31-a8c0-7b6a1422881c)
 
-Agora crie um tópico, em protocolo escolha Email e adicione seu e-mail.
-Posso colocar email de outra conta da AWS? pode sim! mas para isso é necessário que adicionemos os IDs das contas que terão acesso.
+Agora crie uma assinatura e selecione o tópico criado, em protocolo escolha Email e adicione seu e-mail.
+Posso colocar que a aprovação seja feita por outra conta AWS? pode sim! basta especificar os IDs da contas na criação do tópico
 
 ![image](https://github.com/HelterL/projetoDevOpsaws/assets/39557564/01a32cb9-f615-47b0-917a-6d63e861fb95)
 

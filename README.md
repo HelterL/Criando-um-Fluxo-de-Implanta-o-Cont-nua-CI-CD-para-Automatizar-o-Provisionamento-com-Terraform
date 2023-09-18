@@ -176,7 +176,7 @@ Comando **terraform apply** para criar e alterar as Instâncias/Objetos no Provi
 terraform apply plano
 ```
 ## Criação do projeto de compilação no CodeBuild
-No console da AWS, pesquise por CodeBuild ou se já estiver na aba do CodeCommit a opção fica no menu lateral e vá **criar projeto de compilação**
+No console da AWS, pesquise por CodeBuild ou se já estiver na aba do CodeCommit a opção fica no menu lateral e vá em **criar projeto de compilação**
 
 ![image](https://github.com/HelterL/projetoDevOpsaws/assets/39557564/42eb4200-8815-450b-919c-a2549eba22ac)
 

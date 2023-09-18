@@ -238,10 +238,11 @@ Clique no pipeline criado e vá em editar e adicione uma nova etapa embaixo do n
 Vá em **Adicionar grupo de ações**, dê um nome para a ação e em provedor de ação selecione **Aprovação Manual** e selecione nosso tópico criado
 ![image](https://github.com/HelterL/projetoDevOpsaws/assets/39557564/0095d716-a78f-4e2a-897f-13a58e2793a4)
 
+Agora no seu terminal ou na IDE de preferência, faça a alteração e o commit de algum arquivo, a pipeline irá ser executada sempre após o comando:
 
-
-
-
+```bash
+git push -u origin main
+```
 
 
 

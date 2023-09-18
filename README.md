@@ -9,6 +9,10 @@ O intuito desse projeto é a criação de uma pipeline de infraestrutura como c�
 * Docker
 * Terraform 
 
+Abaixo temos a arquitetura com os serviços utilizados:
+
+![BPMN 2 0](https://github.com/HelterL/projetoDevOpsaws/assets/39557564/1c42f4fa-c2ba-4720-bdca-cd52169a9339)
+
 ## Primeiro a criação de um usuário do IAM para acessar o CodeCommit
 No console da AWS pesquise por **IAM** > no menu lateral a esquerda selecione **usuários**
 Adicione um nome ao usuário > em **Opções de permissões** clique em **anexar políticas diretamente** 

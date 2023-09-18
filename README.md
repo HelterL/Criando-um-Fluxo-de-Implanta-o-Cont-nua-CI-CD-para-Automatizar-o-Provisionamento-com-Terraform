@@ -190,4 +190,41 @@ Não se preocupe não precisamos gerenciar nenhuma instância pois o CodeBuild �
 Configure o ambiente como mostra a imagem
 ![image](https://github.com/HelterL/projetoDevOpsaws/assets/39557564/6e5d7c22-3795-4db8-ad1b-67cf08fc1e4f)
 
+Ainda em ambiente, vá em **configuração adicional**, iremos criar variáveis de ambiente para autenticação do terraform
+
+Adicione as seguintes variáveis de ambiente **AWS_ACCESS_KEY_ID** e **AWS_SECRET_ACCESS_KEY** e em valor adicione as credenciais de ambas as chaves
+
+![image](https://github.com/HelterL/projetoDevOpsaws/assets/39557564/58a896b6-2df1-4d58-a74f-be0d47a0e535)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

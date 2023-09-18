@@ -246,9 +246,11 @@ Agora no seu terminal ou na IDE de preferência, faça a alteração e o commit 
 git push -u origin main
 ```
 Nossa pipeline ficará assim
+
 ![image](https://github.com/HelterL/projetoDevOpsaws/assets/39557564/585175fb-63b7-4a0f-acfe-163ab2f11680)
 
 Pedido de aprovação para iniciar o CodeBuild
+
 ![image](https://github.com/HelterL/projetoDevOpsaws/assets/39557564/8c0b9eaf-596a-4792-b924-5114fcf68e92)
 
 Ao final de tudo, para excluir todos os recursos criados execute o seguinte comando e digite **yes** para remoção:

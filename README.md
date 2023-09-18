@@ -175,7 +175,17 @@ Comando **terraform apply** para criar e alterar as Instâncias/Objetos no Provi
 ```bash
 terraform apply plano
 ```
+## Criação do projeto de compilação no CodeBuild
+No console da AWS, pesquise por CodeBuild ou se já estiver na aba do CodeCommit a opção fica no menu lateral e vá **criar projeto de compilação**
+![image](https://github.com/HelterL/projetoDevOpsaws/assets/39557564/42eb4200-8815-450b-919c-a2549eba22ac)
 
+Em Origem escolha a opção CodeCommit, selecione o repositório criado anteriormente e a ramificação main que é o nosso branch principal
+![image](https://github.com/HelterL/projetoDevOpsaws/assets/39557564/e6550bee-95d7-4e52-861d-701cda769c4a)
 
+Em ambiente, podemos utilizar tanto máquinas EC2 quanto containers docker. Para nosso caso iremos utilizar uma instância EC2.
+Não se preocupe não precisamos gerenciar nenhuma instância pois o CodeBuild é um serviço serverless
+
+Configure o ambiente como mostra a imagem
+![image](https://github.com/HelterL/projetoDevOpsaws/assets/39557564/6e5d7c22-3795-4db8-ad1b-67cf08fc1e4f)
 
 

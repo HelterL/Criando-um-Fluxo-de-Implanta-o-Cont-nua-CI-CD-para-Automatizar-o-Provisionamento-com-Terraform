@@ -257,6 +257,7 @@ Pedido de aprovação para iniciar o CodeBuild
 
 ![image](https://github.com/HelterL/projetoDevOpsaws/assets/39557564/8c0b9eaf-596a-4792-b924-5114fcf68e92)
 
+
 Ao final de tudo, para excluir todos os recursos criados execute o seguinte comando e digite **yes** para remoção:
 
 ```bash

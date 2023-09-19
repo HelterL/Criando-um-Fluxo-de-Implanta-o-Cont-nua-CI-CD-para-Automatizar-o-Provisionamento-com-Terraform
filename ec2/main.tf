@@ -14,11 +14,6 @@ data "aws_ami" "amazon-linux-2" {
  }
 }
 
-resource "aws_network_interface_sg_attachment" "sg_attachment" {
-  security_group_id = var.sec_group_id
-  network_interface_id = aws_instance.web.primary_network_interface_id
-}
-
 resource "aws_instance" "web" {
   ami           = data.aws_ami.amazon-linux-2.id
   instance_type = "t2.micro"

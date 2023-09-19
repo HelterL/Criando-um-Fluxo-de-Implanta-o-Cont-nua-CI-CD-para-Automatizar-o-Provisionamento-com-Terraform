@@ -1,5 +1,19 @@
 # Criando um Fluxo de Implantação Contínua (CI/CD) para Automatizar o Provisionamento com Terraform
-O intuito desse projeto é a criação de uma pipeline de infraestrutura como código utilizando serviços da AWS juntamente com Terraform, logo não será possível detalhar passo a passo de cada serviço da AWS e se aprofundar.
+
+Agilizar o fluxo de provisionamento de recursos tem sido cada vez mais utilizado e uma das ferramentas bastante utilizada é o Terraform. Precisamos também ter controle sobre o código criado para implantação de nossa infraestrutura e outra ferramenta popular para controle e versionamento de código é o GIT, a AWS fornece o serviço CodeCommit que é um repositório que é baseado em GIT.
+
+## Em resumo
+
+Iremos utilizar as ferramentas da AWS para implatanção contínua de dados para provisionamento de recursos utilizando o terraform
+* AWS CodeCommit
+  O serviço AWS CodeCommit é um serviço de hospedagem de repositórios de controle de versão baseado na nuvem, que permite que equipes de desenvolvimento armazenem, gerenciem e colaborem em seu código-fonte de forma segura. É uma ferramenta essencial para práticas de desenvolvimento colaborativas e DevOps na AWS, oferecendo controle de versão, integração com outros serviços AWS e suporte para vários frameworks e linguagens de programação.
+
+* AWS Codebuild
+O AWS CodeBuild é um serviço da Amazon Web Services (AWS) que oferece compilação e teste de código em um ambiente altamente escalável e gerenciado. Ele automatiza a compilação, o teste e a entrega de código, permitindo que os desenvolvedores construam, testem e implantem aplicativos de forma eficiente. O CodeBuild é integrado a outros serviços AWS e pode ser usado para criar pipelines de integração e entrega contínua (CI/CD) altamente automatizadas.
+
+* AWS CodePipeline
+  O AWS CodePipeline é um serviço de automação de entrega contínua (CI/CD) na Amazon Web Services (AWS). Ele permite criar pipelines de implantação que automatizam a compilação, teste e implantação de código em vários ambientes. O CodePipeline integra-se com várias ferramentas e serviços da AWS e de terceiros, permitindo a automação completa do processo de desenvolvimento e implantação de software, desde a integração até a entrega aos usuários finais. Isso ajuda as equipes de desenvolvimento a acelerar a entrega de software com segurança e eficiência.
+
 ## Requisitos preliminares
 * Conta na AWS
 * Usuário no IAM

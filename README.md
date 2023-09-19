@@ -6,13 +6,16 @@ Agilizar o fluxo de provisionamento de recursos tem sido cada vez mais utilizado
 
 Iremos utilizar as ferramentas da AWS para implatanção contínua de dados para provisionamento de recursos utilizando o terraform
 * AWS CodeCommit
-  O serviço AWS CodeCommit é um serviço de hospedagem de repositórios de controle de versão baseado na nuvem, que permite que equipes de desenvolvimento armazenem, gerenciem e colaborem em seu código-fonte de forma segura. É uma ferramenta essencial para práticas de desenvolvimento colaborativas e DevOps na AWS, oferecendo controle de versão, integração com outros serviços AWS e suporte para vários frameworks e linguagens de programação.
 
+  O AWS CodeCommit é um serviço de controle de versão na nuvem para armazenar e gerenciar código-fonte de forma segura.
+  
 * AWS Codebuild
-O AWS CodeBuild é um serviço da Amazon Web Services (AWS) que oferece compilação e teste de código em um ambiente altamente escalável e gerenciado. Ele automatiza a compilação, o teste e a entrega de código, permitindo que os desenvolvedores construam, testem e implantem aplicativos de forma eficiente. O CodeBuild é integrado a outros serviços AWS e pode ser usado para criar pipelines de integração e entrega contínua (CI/CD) altamente automatizadas.
+
+O AWS CodeBuild é um serviço de compilação e teste de código automatizado na nuvem que ajuda a criar e testar aplicativos de forma eficiente, permitindo a automação de processos de desenvolvimento.
 
 * AWS CodePipeline
-  O AWS CodePipeline é um serviço de automação de entrega contínua (CI/CD) na Amazon Web Services (AWS). Ele permite criar pipelines de implantação que automatizam a compilação, teste e implantação de código em vários ambientes. O CodePipeline integra-se com várias ferramentas e serviços da AWS e de terceiros, permitindo a automação completa do processo de desenvolvimento e implantação de software, desde a integração até a entrega aos usuários finais. Isso ajuda as equipes de desenvolvimento a acelerar a entrega de software com segurança e eficiência.
+
+O AWS CodeBuild é um serviço de compilação de código na nuvem que automatiza o processo de compilação e teste de aplicativos, ajudando as equipes de desenvolvimento a criar e implantar software de forma eficiente e escalável.
 
 ## Requisitos preliminares
 * Conta na AWS

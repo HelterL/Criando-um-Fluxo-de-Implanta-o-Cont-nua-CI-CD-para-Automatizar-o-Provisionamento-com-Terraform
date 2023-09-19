@@ -196,6 +196,13 @@ Comando **terraform apply** para criar e alterar as Instâncias/Objetos no Provi
 ```bash
 terraform apply plano
 ```
+
+Comando **terraform destroy** para excluir a pilha de recursos criados
+
+```bash
+terraform destroy
+```
+
 ## Criação do projeto de compilação no CodeBuild
 No console da AWS, pesquise por CodeBuild ou se já estiver na aba do CodeCommit a opção fica no menu lateral e vá em **criar projeto de compilação**
 
